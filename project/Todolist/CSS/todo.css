@@ -1,0 +1,87 @@
+*{
+    /* * means select everything */
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    background: radial-gradient(white,grey);
+
+    
+} 
+.wrapper{
+    width: 300px;
+    height: 350px;
+    margin: 50px auto;
+    border: 5px solid black;
+    background: white;
+    border-radius: 20px;
+    
+    /* list-style-type:square; */
+    
+}
+.header{
+    /* border:black solid 2px; */
+    width: 100%;
+    height: 50px;
+
+    /* text-align: center; */
+    background: linear-gradient(red,blue);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    font-family: 'Goblin One', cursive;
+    color:rgb(236, 222, 227);
+}
+span.one{
+    font-size: 20px;
+    border-bottom: dashed;
+    text-align: inherit;
+    display:block;
+    width: 100%;
+    height: 70%;
+    
+    
+   
+}
+.wrap-list{
+    width: 100%;
+    height:85%;
+    border-radius: 0 0 10px 10px;
+}
+input[type="checkbox"]{
+    position: relative;
+    top:14px;
+    right: 12px;
+    float :right
+
+}
+input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+.list{
+    list-style-type:none;
+    color:rgba(0, 0, 0, 0.8);
+    font-family: 'Itim', cursive;
+}
+.list li{
+    width: 100%;
+    float: left;
+
+}
+label{
+    padding: 10px;
+    float:left;
+}
+.grey{
+    background: rgba(152, 148, 161,0.7)
+}
+span.material-icons{
+    font-size: 24px;
+    float: left;
+    margin-left: 50px;
+    padding-right: 10px;
+}

@@ -1,0 +1,39 @@
+body{
+    background: url(../images/gym_edited.jpg) no-repeat fixed center center;
+    background-size: cover;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    color: black;
+    
+
+}
+button{
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color:black;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;;
+   font-size: 18px;
+   
+    
+}
+div{
+    background-color:#b8a48c;
+    text-align: center;
+    margin-left: 25rem;
+    padding: 1px;
+    margin-top: 10rem;
+    margin-right: 25rem;
+    border-radius: 20px;
+    align-self: start;
+    width: 60%;
+    
+    opacity: 0.8;
+    
+   
+}
+
+.material-icons.md-48{
+    font-size: 72px;
+}
